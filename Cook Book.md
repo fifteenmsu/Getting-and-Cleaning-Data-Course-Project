@@ -15,7 +15,7 @@ Additionally in the root directory [UCI HAR Dataset/...] the following file can 
 
 ## Result Data / Code Book
 Result data (file tidy.txt) is written to root directory. it contains the following columns:
-1. subject - id of person whose data were recorded during experiment.
+1. Group.1 - id of person (i.e. subject) whose data were recorded during experiment.
 2. derived variables (all have no unit - have been normalized to [-1, 1]):
   * variables in the result data set are _AVG_ of original variables and have the following name  notation {orig_var}-{mean()|std()}-[{X|Y|Z}].{activity}, where
    +  {orig_var} one of the following: 
